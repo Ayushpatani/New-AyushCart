@@ -1,4 +1,4 @@
-package model;
+package com.springProject.LearningRestAPI.model;
 
 public class Item {
 

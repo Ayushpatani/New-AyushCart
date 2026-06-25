@@ -14,9 +14,10 @@ public class ItemService {
 
         List<Item> items = new ArrayList<>();
 
-        items.add(new Item("Laptop", 50000));
-        items.add(new Item("Phone", 20000));
-        items.add(new Item("Headphones", 3000));
+        // ✅ Correct order: price, quantity, name, desc
+        items.add(new Item(50000, 1, "Laptop",     "Dell Laptop"));
+        items.add(new Item(20000, 1, "Phone",      "A smartphone"));
+        items.add(new Item(3000,  1, "Headphones", "Wired headphones"));
 
         return items;
     }
