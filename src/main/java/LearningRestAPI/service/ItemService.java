@@ -1,11 +1,11 @@
-package com.springProject.LearningRestAPI.service;
+package LearningRestAPI.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.springProject.LearningRestAPI.model.Item;
+import LearningRestAPI.model.Item;
 
 @Service
 public class ItemService {
